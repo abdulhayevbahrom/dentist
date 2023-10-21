@@ -1,0 +1,263 @@
+.doctor_info_banner {
+    width: 100%;
+}
+
+.doctor_info_banner_main {
+    font-family: sans-serif;
+}
+
+.single_doctor_info {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.single_doctor_info>.single_doctor_info_left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.single_doctor_info>.single_doctor_info_left>.doctor_info_main_word {
+    color: blue;
+    font-size: 45px;
+}
+
+.single_doctor_info>.single_doctor_info_left>.line {
+    width: 150px;
+    margin: 20px 0;
+    height: 3px;
+    background-color: purple;
+}
+
+.single_doctor_info>.single_doctor_info_left>q {
+    font-size: 37px;
+    font-weight: bold;
+    color: blue;
+}
+
+.single_doctor_info>.single_doctor_info_left>q .doctor_little_info {
+    font-size: 25px;
+    font-weight: 100;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.single_doctor_info>.single_doctor_info_left>.doctor_info_purple {
+    color: purple;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.single_doctor_info>.single_doctor_info_right {
+    width: 50%;
+    height: auto;
+}
+
+.single_doctor_info>.single_doctor_info_right img {
+    width: 600px;
+    height: 600px;
+    padding: 10%;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .single_doctor_info>.single_doctor_info_left {
+        padding: 5%;
+    }
+
+    .single_doctor_info>.single_doctor_info_right img {
+        width: 500px;
+        height: 500px;
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .single_doctor_info {
+        display: block;
+    }
+
+    .single_doctor_info>.single_doctor_info_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .single_doctor_info>.single_doctor_info_right img {
+        width: 100%;
+    }
+
+    .single_doctor_info>.single_doctor_info_left {
+        width: 600px;
+        height: 600px;
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .single_doctor_info>.single_doctor_info_left>.doctor_info_main_word {
+        font-size: 35px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>.line {
+        width: 120px;
+        margin: 15px 0;
+        height: 3px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>q {
+        font-size: 30px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>q .doctor_little_info {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left {
+        padding: 3%;
+    }
+
+    .single_doctor_info>.single_doctor_info_right img {
+        padding: 3%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .single_doctor_info>.single_doctor_info_left>.doctor_info_main_word {
+        font-size: 30px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>.doctor_info_main_word {
+        font-size: 30px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>.line {
+        width: 100px;
+        margin: 10px 0;
+        height: 3px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>q {
+        font-size: 30px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>q .doctor_little_info {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .single_doctor_info>.single_doctor_info_left {
+        padding: 2%;
+    }
+
+    .single_doctor_info>.single_doctor_info_right img {
+        width: 300px;
+        height: 300px;
+        padding: 2%;
+    }
+
+    .single_doctor_info>.single_doctor_info_left>.doctor_info_purple {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+/* doctor cards */
+
+
+.doctor_info_cards {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.doctor_info_cards .doctor_cards {
+    width: 300px;
+    height: auto;
+    padding: 2%;
+}
+
+.doctor_info_cards .doctor_cards img {
+    width: 100%;
+    height: 250px;
+}
+
+.doctor_info_cards .doctor_cards .job {
+    color: blue;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.doctor_info_cards .doctor_cards .line_div {
+    width: 50px;
+    height: 3px;
+    margin: 10px 0;
+    background-color: blueviolet;
+}
+
+.doctor_info_cards .doctor_cards .doctor_experience {
+    font-size: 17px;
+    margin: 0 0 15px 0;
+}
+
+.doctor_info_cards .doctor_cards .single_doctor_info_experience {
+    font-size: 17px;
+    margin-top: 50px;
+    display: inline;
+    color: gray;
+}
+
+.doctor_info_cards .doctor_cards .doctor_social_nets svg {
+    width: 35px;
+    height: 35px;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    margin: 10px 10px;
+    border-radius: 50%;
+    color: red;
+}
+
+@media screen and (max-width: 1347px) {
+    .doctor_info_cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .doctor_info_cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .doctor_info_cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px
+    }
+
+    .doctor_info_cards .doctor_cards {
+        width: 400px;
+        height: auto;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .doctor_info_cards .doctor_cards {
+        width: 300px;
+        padding: 4%;
+    }
+}

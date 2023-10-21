@@ -1,0 +1,122 @@
+.perfect {
+    width: 100%;
+}
+
+.perfect_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.perfect .left {
+    width: 50%;
+    height: 476px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.perfect .left h1 {
+    font-weight: 400;
+    color: #0e54ae;
+}
+
+.perfect .left::after {
+    position: absolute;
+    content: '';
+    width: 600px;
+    height: 1px;
+    background-color: #999;
+    top: 60px;
+    z-index: 1;
+}
+
+.input_div {
+    width: 280px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.perfect .left .input1 {
+    padding: 18px 25px;
+    border: none;
+    outline-color: #999;
+    box-shadow: 0px 0px 5px #333;
+    border-radius: 4px;
+}
+
+.perfect .left .input2 {
+    padding: 18px 30px;
+    border: none;
+    outline-color: #999;
+    box-shadow: 0px 0px 5px #333;
+    border-radius: 4px;
+}
+
+.perfect .left .input3 {
+    padding: 18px 30px;
+    border: none;
+    outline-color: #999;
+    box-shadow: 0px 0px 5px #333;
+    border-radius: 4px;
+}
+
+.input_div button {
+    padding: 20px 30px;
+    background-color: #BC74A5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.perfect .left img {
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.perfect .right {
+    width: 50%;
+    height: 476px;
+    background-color: #0e54ae;
+    position: relative;
+}
+
+.perfect .right::after {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 2px;
+    background-color: #BC74A5;
+    top: 50px;
+    left: 200px;
+}
+
+.perfect .right p {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+    font-weight: 100;
+}
+
+.perfect .right::before {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 2px;
+    background-color: #BC74A5;
+    top: 200px;
+    left: 200px;
+}
+
+.perfect .right img {
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 240px;
+}

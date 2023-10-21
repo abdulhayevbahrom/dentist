@@ -1,0 +1,124 @@
+.Sidebar {
+  position: absolute;
+  z-index: 900;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar__head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b15092;
+  padding: 0 3%;
+}
+
+.sidebar__logo img {
+  width: 120px;
+  height: 70px;
+}
+
+.sidebarClose {
+  font-size: 33px;
+  color: #0e54ae;
+}
+
+.sidebar__top,
+.sidebar__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.sidebar__call,
+.sidebar__working__days {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.sidebar__call:hover .call__icon,
+.sidebarClose:hover {
+  color: #b15092;
+}
+.sidebar__call svg,
+.sidebar__working__days svg {
+  font-size: 23px;
+  color: #0e54ae;
+}
+.sidebar__call span,
+.sidebar__working__days span {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  font-weight: 550;
+  font-family: "Open sans", sans-serif;
+}
+
+.sidebar__call span small,
+.sidebar__working__days span small {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sidebar__links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sidebar__links a {
+  padding: 15px 3%;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  color: #333;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.sidebar__links a:hover {
+  color: #b15092;
+}
+
+.sidebar__bottom {
+  gap: 30px;
+}
+
+.sidebar__bottom .navbar__networks {
+  border: none;
+  padding: 0 15px;
+  font-size: 22px;
+}
+
+@media (max-width: 560px) {
+  .Sidebar {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1001px) {
+  .Sidebar {
+    transform: translateX(-100%);
+    transition: 0.5s;
+  }
+}

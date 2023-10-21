@@ -1,0 +1,154 @@
+.position_image {
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://media.istockphoto.com/id/1396458805/photo/close-up-of-a-dental-drill-procedure-at-dentist.webp?b=1&s=170667a&w=0&k=20&c=VhmpPUFFqMj_oX69KUDABBcWBVkw0QdmhLkiAybSy8U=);
+    background-size: 100%;
+    z-index: -999;
+}
+
+
+.seeyou {
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(54, 79, 101); */
+    background-color: rgba(255, 255, 255, 0.744);
+    padding: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.seeyou>hr {
+    width: 100%;
+    border: 1px solid rgba(198, 198, 198, 0.464);
+}
+
+.seeyou_item1 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.seeyou_item1>p {
+    font-size: 40px;
+    color: #BC74A5;
+}
+
+.seeyou_item1>h1 {
+    font-size: 80px;
+    color: #0E54Ae;
+}
+
+.seeyou_item2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+}
+
+.seeyou_item2>div {
+    width: 375px;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    line-height: 1.6;
+
+}
+
+.seeyou_item2>div>div>p {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.seeyou_item2>div>div>div {
+    width: 373px;
+    background-color: #C5CAD2;
+    height: 5px;
+    display: flex;
+    align-items: start;
+    border-radius: 2px;
+    justify-content: start;
+    margin-top: 5px;
+
+}
+
+.seeyou_item2>div>div>div>p {
+    width: 95%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #BC74A5;
+
+}
+
+.Seeyou_card {
+    width: 100%;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    background-color: rgba(255, 255, 255, 0.744);
+
+
+}
+
+.Seeyou_card_item {
+    width: 285px;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: column;
+    background-color: #BC74A5;
+    color: white;
+    position: relative;
+    padding-bottom: 20px;
+}
+.Seeyou_card_item>div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.Seeyou_card_item>div>p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+.Seeyou_card_item>div>h1 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.Seeyou_card_item>img {
+    width: 100%;
+    height: 190px;
+}
+
+.Seeyou_card_item_position {
+    position: absolute;
+    top: 34%;
+    left: 10%;
+
+}
+
+.Seeyou_card_item_position>img {
+    width: 90px;
+    height: 90px;
+}

@@ -1,0 +1,115 @@
+.location {
+    width: 100%;
+}
+
+.location_container_main {
+    width: 100%;
+    height: 120vh;
+    background-color: #fff;
+}
+
+.location_heading {
+    width: 100%;
+    height: 25%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location_heading>h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(208, 43, 226);
+}
+
+.location_heading>h1>span {
+    color: darkblue;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.location_heading>p {
+    width: 45%;
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+
+.location_main {
+    width: 100%;
+    height: 75%;
+    background-color: pink;
+    display: flex;
+}
+
+.location_main_left {
+    width: 55%;
+    height: 100%;
+    background-color: red;
+    background-image: url(https://developers.google.com/static/maps/images/landing/hero_maps_static_api.png);
+}
+
+.location_main_right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 82, 181);
+}
+
+.location_main_right_item {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(6, 82, 181);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+}
+
+.location_main_right_item_box {
+    width: 100%;
+    height: 60%;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.location_main_right_item_box_child {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.location_main_right_item_box_child>button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: blueviolet;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.location_main_right_item_box_child>button:hover {
+    margin-bottom: 8px;
+}
+
+.location_main_right_item>button {
+    width: 230px;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    margin-top: 30px;
+}

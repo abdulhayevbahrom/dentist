@@ -1,0 +1,109 @@
+.number{
+    width: 100%;
+    height: 135vh;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 100px 7%;
+    flex-direction: column;
+}
+.number>div{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.number>hr{
+    width: 100%;
+    border: 1px solid rgba(211, 211, 211, 0.742);
+}
+.number>div> h2{
+    font-size: 40px;
+    color: #BC74A5;
+}
+
+.number>div>h1{
+    font-size: 80px;
+    color: #0E54AE;
+}
+.number>div>p{
+    width: 600px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.number_item{
+    /* background-color: #0E54AE; */
+    width: 100%;
+    height: 276px;
+    overflow: hidden;
+    display: flex;
+}
+.number_item>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.number_item>div>div{
+    width: 270px;
+    height: 276px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;   
+}
+.number_item>div>div>div{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid #0E54AE;
+    
+
+}
+
+.number_bottom{
+    width: 100%;
+    height: 20vh;
+}
+.number_bottom>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.number_bottom>div>div{
+    width: 400px;
+    text-align: left;
+    height: 100%;
+    line-height: 1.7;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.number_bottom>div>div:first-child{
+    font-size: 25px;
+    height: 100%;
+}
+.number_bottom>div>div:first-child>p{
+    width: 90%;
+    text-align: center;
+}
+.number_bottom>div>div:first-child>p>b{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.number_bottom>div>div:first-child>hr{
+    width: 50%;
+    border: 2px solid #BC74A5;
+    margin: 0 auto;
+}
