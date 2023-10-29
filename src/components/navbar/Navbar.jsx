@@ -11,7 +11,7 @@ import {
   LiaBarsSolid,
 } from "react-icons/lia";
 import { LuCalendarClock, LuInstagram } from "react-icons/lu";
-import {FaRegUser} from 'react-icons/fa'
+import { FaRegUser } from 'react-icons/fa'
 
 function Navbar() {
   const [openSidebar, setOpenSidebar] = useState(false);
@@ -75,10 +75,10 @@ function Navbar() {
             <Link to={"/"}>Xizmatlar</Link>
             <Link to={"/"}>bog'lanish</Link>
           </div>
-          <div className="nav__user">
+          <Link to={'/admin'} className="nav__user">
             <FaRegUser />
             Kirish
-          </div>
+          </Link>
         </div>
       </div>
     </div>

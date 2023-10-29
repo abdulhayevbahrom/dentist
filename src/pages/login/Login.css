@@ -1,0 +1,42 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(163, 200, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.login form h2 {
+    text-align: center;
+}
+
+.login form input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+.login form div {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login form div svg {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    font-size: 20px;
+    padding: 5px;
+}
