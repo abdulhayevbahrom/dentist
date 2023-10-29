@@ -11,8 +11,7 @@ import {
   LiaBarsSolid,
 } from "react-icons/lia";
 import { LuCalendarClock, LuInstagram } from "react-icons/lu";
-import { BsFillBagPlusFill } from "react-icons/bs";
-import { FaSearch } from "react-icons/fa";
+import {FaRegUser} from 'react-icons/fa'
 
 function Navbar() {
   const [openSidebar, setOpenSidebar] = useState(false);
@@ -29,68 +28,58 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="container">
-
         {openSidebar && <Sidebar closeSidebarFunc={closeSidebarFunc} />}
         {/*======== NAVBAR__TOP ======= */}
         <div className="navbar__top">
-          <div className="navbar__top__left">
-            <LiaBarsSolid onClick={openSidebarFunc} className="bar__icon" />
-            <Link to={"/"} className="navbar__logo">
-              <img src={navLogo} alt="Logo" />
-            </Link>
-          </div>
           <div className="navbar__top__right">
             <a className="navbar__call" href="tel:+998932620323">
               <LiaPhoneVolumeSolid className="call__icon" />
-              <span>
-                +998(93)9119572 <small>24/7 Emergency Phone</small>
-              </span>
+              Biz bilan aloqa:
+              <span>+998(93)9119572</span>
             </a>
             <div className="working__days">
               <LuCalendarClock />
               <span>
-                Monday-Friday
+                Dushanba-Shanba:
                 <small>
                   9<sup>00</sup> - 21<sup>00</sup>
                 </small>
               </span>
             </div>
           </div>
+          <div className="navbar__networks">
+            Ijtimoiy sahifalar:
+            <a href="https://instagram.com">
+              <LuInstagram />
+            </a>
+            <a href="https://facebook.com">
+              <LiaFacebookF />
+            </a>
+            <a href="https://t.me">
+              <LiaTelegramPlane />
+            </a>
+          </div>
         </div>
         {/*========= NAVBAR__BOTTOM ======== */}
         <div className="navbar__bottom">
+          <div className="navbar__top__left">
+            <LiaBarsSolid onClick={openSidebarFunc} className="bar__icon" />
+            <Link to={"/"} className="navbar__logo">
+              <img src={navLogo} alt="Logo" />
+              Sadaf
+            </Link>
+          </div>
           {/*  NAVBAR LINKS */}
           <div className="nav__links">
-            <Link to={"/about"}>About</Link>
-            <Link to={"/"}>Services</Link>
-            <Link to={"/"}>Pages</Link>
-            <Link to={"/"}>News</Link>
-            <Link to={"/"}>Shop</Link>
+            <Link to={"/about"}>Biz haqimizda</Link>
+            <Link to={"/"}>Xizmatlar</Link>
+            <Link to={"/"}>bog'lanish</Link>
           </div>
-          <div className="nav__bottom__right">
-            {/* NAVBAR NETWORKS */}
-            <div className="navbar__networks">
-              <a href="https://instagram.com">
-                <LuInstagram />
-              </a>
-              <a href="https://facebook.com">
-                <LiaFacebookF />
-              </a>
-              <a href="https://t.me">
-                <LiaTelegramPlane />
-              </a>
-            </div>
-            {/* SEARCH & CART btns */}
-            <div className="search__shop__icons">
-              <FaSearch className="search__icon" />
-              <button className="shop">
-                <BsFillBagPlusFill className="shop__icon" />
-                <span>0</span>
-              </button>
-            </div>
+          <div className="nav__user">
+            <FaRegUser />
+            Kirish
           </div>
         </div>
-        {/* <div onClick={closeSidebarFunc} className="overlay"></div> */}
       </div>
     </div>
   );

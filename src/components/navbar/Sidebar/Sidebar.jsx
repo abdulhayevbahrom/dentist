@@ -9,8 +9,12 @@ import {
   LiaTelegramPlane,
 } from "react-icons/lia";
 import { LuCalendarClock, LuInstagram } from "react-icons/lu";
-import { BsFillBagPlusFill } from "react-icons/bs";
-import { FaSearch } from "react-icons/fa";
+import {
+  MdOutlineMedicalServices,
+  MdOutlineHealthAndSafety,
+} from "react-icons/md";
+import { FcAbout, FcBusinessContact } from "react-icons/fc";
+import { FaRegUser } from "react-icons/fa";
 
 function Sidebar({ closeSidebarFunc }) {
   return (
@@ -18,40 +22,43 @@ function Sidebar({ closeSidebarFunc }) {
       <div className="Sidebar">
         <div className="sidebar__head">
           <Link to={"/"} className="sidebar__logo">
-            <img src={navLogo} alt="Logo" />
+            <img src={navLogo} alt="Logo" /> SADAF
           </Link>
           <IoMdClose className="sidebarClose" onClick={closeSidebarFunc} />
         </div>
+
+        {/*  SIDEBAR LINKS */}
+        <div className="sidebar__links">
+          <button className="sidebar__user"><FaRegUser/> Kirish </button>
+          <Link to={"/about"}>
+            {" "}
+            <FcAbout /> biz haqimizda
+          </Link>
+          <Link to={"/"}>
+            <MdOutlineMedicalServices className="service__icon" /> xizmatlar
+          </Link>
+          <Link to={"/"}>
+            {" "}
+            <FcBusinessContact /> bog'lanish
+          </Link>
+        </div>
         {/*======== SIDEBAR TOP ======= */}
         <div className="sidebar__top">
-          <a className="sidebar__call" href="tel:+998932620323">
-            <LiaPhoneVolumeSolid className="call__icon" />
-            <span>
-              +998(93)xxxxxxx <small>24/7 Emergency Phone</small>
-            </span>
-          </a>
           <div className="sidebar__working__days">
             <LuCalendarClock />
             <span>
-              Monday-Friday
-              <small>
-                9:<sup>00</sup>-21:<sup>00</sup>
-              </small>
+              Dushanba-Shanba: 9<sup>00</sup> - 21<sup>00</sup>
             </span>
           </div>
-        </div>
-        {/*  SIDEBAR LINKS */}
-        <div className="sidebar__links">
-          <Link to={"/about"}>About</Link>
-          <Link to={"/"}>Services</Link>
-          <Link to={"/"}>Pages</Link>
-          <Link to={"/"}>News</Link>
-          <Link to={"/"}>Shop</Link>
+          <a className="sidebar__call" href="tel:+998932620323">
+            <LiaPhoneVolumeSolid className="call__icon" />
+            <span>+998(93)9119572</span>
+          </a>
         </div>
         {/*========= SIDEBAR BOTTOM ======== */}
         <div className="sidebar__bottom">
           {/* SIDEBAR NETWORKS */}
-          <div className="navbar__networks">
+          <div className="sidebar__networks">
             <a href="https://instagram.com">
               <LuInstagram />
             </a>
@@ -61,14 +68,6 @@ function Sidebar({ closeSidebarFunc }) {
             <a href="https://t.me">
               <LiaTelegramPlane />
             </a>
-          </div>
-          {/* SEARCH & CART btns */}
-          <div className="search__shop__icons">
-            <FaSearch className="search__icon" />
-            <button className="shop">
-              <BsFillBagPlusFill className="shop__icon" />
-              <span>0</span>
-            </button>
           </div>
         </div>
       </div>

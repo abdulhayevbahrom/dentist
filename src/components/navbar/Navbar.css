@@ -15,9 +15,8 @@ svg {
 
 .Navbar {
   width: 100%;
-  padding: 0 3%;
   position: sticky;
-  top: -90px;
+  top: -41px;
   background-color: #fff;
   box-shadow: #959da545 0px 8px 24px;
   z-index: 999;
@@ -27,10 +26,12 @@ svg {
 
 .navbar__top {
   width: 100%;
-  height: 90px;
+  height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #333333;
+  padding: 0 3%;
 }
 
 .navbar__top__left {
@@ -45,8 +46,17 @@ svg {
 }
 
 .navbar__logo {
-  width: 166px;
-  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #0e54ae;
+  height: 55px;
+  font-size: 35px;
 }
 
 .navbar__logo img {
@@ -56,7 +66,7 @@ svg {
 
 .navbar__top__right {
   display: flex;
-  gap: 25px;
+  gap: 45px;
 }
 
 .working__days,
@@ -64,26 +74,27 @@ svg {
   display: flex;
   align-items: center;
   gap: 7px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
-
 .working__days svg,
 .navbar__call svg {
-  font-size: 35px;
-  color: #0e54ae;
+  font-size: 22px;
+  color: #fff;
 }
 
-.working__days span,
-.navbar__call span {
+.working__days span {
   display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  color: #333;
-  font-weight: 550;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
 }
 
 .working__days span small,
-.navbar__call span small {
+.navbar__call span {
   font-size: 14px;
   font-weight: normal;
 }
@@ -96,14 +107,14 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #e8e8e8;
+  padding: 0 3%;
 }
 
 .nav__links {
   display: flex;
   height: 100%;
 }
-
+.nav__user,
 .nav__links a {
   height: 100%;
   display: flex;
@@ -128,11 +139,25 @@ svg {
   transform: scaleX(0);
   transition: all 0.3s;
 }
-
 .nav__links a:hover::before {
   transform: scaleX(1);
 }
+.nav__user {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nav__user svg {
+  font-size: 22px;
+}
 
+.nav__user:hover.nav__user > svg {
+  color: #b15092;
+}
+
+.nav__user:hover,
 .nav__links a:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
 }
@@ -148,59 +173,35 @@ svg {
   display: flex;
   align-items: center;
   height: 100%;
-  border-right: 1px solid #e8e8e8;
-  padding-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar__networks a {
-  color: #0e54ae;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  color: #fff;
   padding: 0 7px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
+  width: 60px;
+}
+.navbar__networks a:hover {
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 8px;
 }
 
-.search__icon:hover,
-.shop__icon:hover,
+.navbar__networks a:first-of-type {
+  margin-left: 18px;
+}
+
 .navbar__call:hover .call__icon,
 .navbar__networks a:hover {
   color: #b15092;
   transition: all 0.3s ease-out;
-}
-
-.search__shop__icons {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.search__icon,
-.shop {
-  font-size: 17px;
-  color: #333;
-  margin: 0 10px;
-}
-
-.shop {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-}
-
-.shop span {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  background: #b15092;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 12px;
 }
 
 @media (max-width: 1000px) {
@@ -208,8 +209,8 @@ svg {
     display: block;
   }
 
-  .navbar__top__right,
-  .navbar__bottom {
+  .navbar__top,
+  .nav__links, .nav__user {
     display: none;
   }
 
@@ -217,6 +218,13 @@ svg {
     width: 100%;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 0 3%;
+  }
+}
+
+@media (max-width:760px) {
+    .navbar__logo {
+    width: 30px;
+    height: 50px;
+    font-size: 30px;
   }
 }
