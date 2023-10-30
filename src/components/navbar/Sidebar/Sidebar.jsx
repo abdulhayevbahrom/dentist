@@ -10,9 +10,7 @@ import {
 } from "react-icons/lia";
 import { LuCalendarClock, LuInstagram } from "react-icons/lu";
 import {
-  MdOutlineMedicalServices,
-  MdOutlineHealthAndSafety,
-} from "react-icons/md";
+  MdOutlineMedicalServices} from "react-icons/md";
 import { FcAbout, FcBusinessContact } from "react-icons/fc";
 import { FaRegUser } from "react-icons/fa";
 
