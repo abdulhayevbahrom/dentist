@@ -17,7 +17,7 @@ export const sidebarData = [
     {
         id: 2,
         title: "Patient",
-        link: "/patent",
+        link: "/patient",
         icon: <FaUser />
     },
     {

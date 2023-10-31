@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import './Dashboard.css'
 import { FiUsers } from 'react-icons/fi'
@@ -67,6 +68,17 @@ function Dashboard() {
             </div>
         </div>
     )
+=======
+import React from "react";
+import "./Dashboard.css";
+
+function Dashboard() {
+  return (
+    <div className="dashboard">
+
+    </div>
+  );
+>>>>>>> origin/gulnoza
 }
 
-export default Dashboard
+export default Dashboard;
