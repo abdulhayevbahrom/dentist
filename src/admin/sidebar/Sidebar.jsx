@@ -14,6 +14,7 @@ function Sidebar() {
         localStorage.removeItem('admin')
         navigate('/')
     }
+    console.log(navigate);
 
     const admin = JSON.parse(localStorage.getItem('admin'))
 
@@ -39,6 +40,9 @@ function Sidebar() {
                 }
             </div>
             <div className="aside__LogOut" onClick={LogOut} >Log out <FiLogOut /> </div>
+            <div className="admin_header">
+                
+            </div>
         </aside>
     )
 }
