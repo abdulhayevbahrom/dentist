@@ -1,0 +1,73 @@
+.carousel{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://denticare.bold-themes.com/allen/wp-content/uploads/sites/16/2020/01/hero-1.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.carousel button{
+    width: 150px;
+    height: 50px;
+    background-color: #BC74A5;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 12px;
+    box-shadow: 0 2px 5px gray;
+}
+.carousel button:hover{
+    background: linear-gradient(90deg, rgba(244,131,240,1) 0%, rgba(141,80,221,1) 35%, rgba(52,70,200,1) 100%);
+    
+}
+.carousel button>svg{
+    font-size: 20px;
+}
+.carousel h2{
+    color: #BC74A5;
+    font-weight: 200;
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+.carousel h1{
+    width: 50%;
+    font-weight: 800;
+    color: #0E54AE;
+    font-size: 4vw;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.carousel .teeth{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.carousel .teeth .tooth{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.carousel .teeth .tooth>svg{
+    font-size: 8vw;
+    color: #0E54AE;
+    font-weight: 200;
+}
+.carousel .teeth .tooth .text h3{
+    font-size: 16px;
+    font-weight: 200;
+    color: #0E54AE;
+    margin-bottom: 10px;
+}
+.carousel .teeth .tooth .text p{
+    color: #4E5153;
+    font-size: 13px;
+}
