@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Lato", sans-serif;
+  user-select: none;
+}
+
+.Patient {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.Patient table {
+  width: 80%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.Patient thead tr {
+  background-color: dodgerblue;
+}
+
+.Patient thead th {
+  color: #ffffff;
+}
+
+.Patient th,
+.Patient td {
+  text-align: left;
+  padding: 12px 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+.Patient table tbody tr:last-of-type {
+  border-bottom: 2px solid dodgerblue;
+}
+
+.Patient table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.Patient table tbody td {
+  font-weight: bold;
+}
+
+.number__patient {
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.delete__patient .trashban:hover {
+  fill: red;
+  transform: scale(1.1);
+  cursor: pointer;
+}
