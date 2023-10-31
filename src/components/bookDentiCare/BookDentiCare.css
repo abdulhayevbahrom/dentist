@@ -202,152 +202,54 @@
     }
 }
 
-@media (max-width:1200px) {
-    .book_denticare_page {
-        flex-direction: column;
+@media (max-width:1205px) {
+    .book_denticare_main {
         height: auto;
-        padding: 20px 5%;
-        gap: 30px;
+        flex-direction: column;
     }
-
     .book_denticare_img_container {
         width: 100%;
-        height: 500px;
-        object-fit: cover;
     }
-
     .book_denticare_form_containet {
         width: 100%;
-        padding: 0;
-    }
-
-    .book_denticare_form_containet_button .book_denticare_form_containet_button_input {
-        width: 350px;
+        padding: 20px 5%;
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:650px) {
     .book_denticare_img_container {
-        height: 400px;
+        padding: 20px 5%;
+        height: 500px;
     }
-
-    .book_denticare_form_title h2 {
-        font-size: 27px;
-    }
-
-    .book_denticare_form_title h1 {
-        font-size: 50px;
+    .book_denticare_img_item  {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
     }
 }
 
-@media (max-width:750px) {
-    .book_denticare_form_containet_button .book_denticare_form_containet_button_input {
-        width: 270px;
-    }
-}
-
-@media (max-width:700px) {
+@media (max-width:550px) {
     .book_denticare_img_container {
-        height: 320px;
+        height: 350px;
     }
-
     .book_denticare_form_title h2 {
         font-size: 20px;
     }
-
     .book_denticare_form_title h1 {
         font-size: 37px;
     }
 }
 
 @media (max-width:600px) {
-    .book_denticare_form_containet_button .book_denticare_form_containet_button_input {
-        width: 200px;
-        height: 50px;
-    }
-
-    .book_denticare_form_input_border input {
-        height: 40px;
-        font-size: 15px;
-    }
-
-    .book_denticare_form_input_border .book_denticare_form__drop_down {
-        padding-top: 10px;
-        height: auto;
-    }
-}
-
-@media (max-width:550px) {
-    .book_denticare_form_containet_button .book_denticare_form_containet_button_input {
-        width: auto;
-        height: auto;
-        padding: 12px 14px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width:450px) {
-    .book_denticare_img_container {
-        height: 250px;
-    }
-
-    .book_denticare_form_title h2 {
-        font-size: 16px;
-    }
-
-    .book_denticare_form_title h1 {
-        font-size: 30px;
-    }
-
-    .book_denticare_form_containet .book_denticare_form_p_text {
-        font-size: 14px;
-    }
-
-    .book_denticare_form_input_container .book_denticare_form_input_container_item {
-        display: grid;
-        grid-template-columns: repeat(1, 100%);
-    }
-
-    .book_denticare_form_containet_button .book_denticare_form_containet_button_input {
-        width: 100%;
-    }
-}
-
-@media (max-width:600px) {
     .dropdown .dropdown_btn {
         height: 40px;
         font-size: 15px;
     }
 }
 
+
 @media (max-width:400px) {
     .dropdown .dropdown_btn {
-        font-size: 14px;
-    }
-}
-
-@media (max-width:400px) {
-    .book_denticare_img_container {
-        height: 200px;
-    }
-
-    .book_denticare_form_title h2 {
-        font-size: 14px;
-    }
-
-    .book_denticare_form_title h1 {
-        font-size: 25px;
-    }
-
-    .book_denticare_form_containet .book_denticare_form_p_text {
-        font-size: 13px;
-    }
-
-    .book_denticare_form_input_border label {
-        font-size: 13px;
-    }
-
-    .book_denticare_form_input_border input {
         font-size: 14px;
     }
 }
