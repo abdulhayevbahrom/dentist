@@ -11,41 +11,70 @@
   padding: 80px 0;
 }
 
-.Patient .searchbar {
-  height: 50px;
-  width: 400px;
-  border-radius: 3px;
+.Patient h1 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: rgb(9, 84, 159);
+  font-family: "Lato", sans-serif;
+}
+
+/* Patient header */
+
+.patient__header {
   display: flex;
-  padding: 0 20px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.patient__searchbar {
+  height: 50px;
+  width: 100%;
+  padding-right: 20px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  background:linear-gradient(  to right, rgba(244, 246, 250, 0.469) 85% ,   dodgerblue 5%) ;
-  border: 0.5px solid dodgerblue;
+  background: linear-gradient(
+    to right,
+    rgba(244, 246, 250, 0.469) 92%,
+    dodgerblue 5%
+  );
+  border:3px solid inherit;
+  overflow:hidden;
+  box-shadow: 1px 2px 3px rgb(182, 180, 180);
+  margin-bottom: 20px;
 }
 
-.Patient .searchbar input {
+.patient__select {
+  height: 50px;
+  width: 150px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  background: dodgerblue;
+}
+
+.patient__searchbar input {
   font-size: 18px;
   color: #333;
+  width: 100%;
+  text-indent: 15px;
 }
 
-.Patient .searchbar svg{
-  font-size: 22px;
+.patient__searchbar svg {
+  font-size: 28px;
   color: #fff;
 }
 
+/* TABLE */
 .Patient table {
   width: 80%;
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-}
-
-table caption {
-  font-style: italic;
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 15px;
-  color: rgb(9, 84, 159);
 }
 
 .Patient thead tr {
@@ -93,7 +122,7 @@ tr:hover {
   cursor: pointer;
 }
 
-.empty__patient{
+.empty__patient {
   width: 100%;
   height: 70%;
   align-items: center;
@@ -102,13 +131,13 @@ tr:hover {
   flex-direction: column;
 }
 
-.empty__patient svg{
+.empty__patient svg {
   width: 60px;
   height: 60px;
   margin-bottom: 40px;
 }
 
 .empty__patient h2,
-.empty__patient svg{
+.empty__patient svg {
   color: #333;
 }
