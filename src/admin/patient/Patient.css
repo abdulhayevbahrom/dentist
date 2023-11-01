@@ -1,16 +1,36 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
 
-body {
-  font-family: "Lato", sans-serif;
-  user-select: none;
-}
-
 .Patient {
   width: 77%;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
   background-color: #fff;
   padding: 80px 0;
+}
+
+.Patient .searchbar {
+  height: 50px;
+  width: 400px;
+  border-radius: 3px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background:linear-gradient(  to right, rgba(244, 246, 250, 0.469) 85% ,   dodgerblue 5%) ;
+  border: 0.5px solid dodgerblue;
+}
+
+.Patient .searchbar input {
+  font-size: 18px;
+  color: #333;
+}
+
+.Patient .searchbar svg{
+  font-size: 22px;
+  color: #fff;
 }
 
 .Patient table {
@@ -18,6 +38,14 @@ body {
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   overflow: hidden;
+}
+
+table caption {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: rgb(9, 84, 159);
 }
 
 .Patient thead tr {
@@ -32,6 +60,7 @@ body {
 .Patient td {
   text-align: left;
   padding: 12px 15px;
+  font-family: "Lato", sans-serif;
 }
 
 tr:nth-child(even) {
@@ -62,4 +91,24 @@ tr:hover {
   fill: red;
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.empty__patient{
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty__patient svg{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+.empty__patient h2,
+.empty__patient svg{
+  color: #333;
 }
