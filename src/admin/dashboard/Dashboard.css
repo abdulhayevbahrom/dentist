@@ -1,5 +1,34 @@
 .dashboard {
     width: calc(100% - 300px);
     height: 100vh;
-    background-color: crimson;
+    background-color: wheat;
+}
+.dashboard_items{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    place-items: center;
+    place-content: center;
+    gap: 35px;
+}
+.dashboard_item{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(0,150,136);
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+.dashoard_icon{
+    font-size: 25px;
+    color: white;
+}
+.dashboard_item b{
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+    top: 30%;
 }
