@@ -3,48 +3,55 @@ import './Dashboard.css'
 import { FiUsers } from 'react-icons/fi'
 import { GrUserSettings } from 'react-icons/gr'
 import { RiUserStarFill } from 'react-icons/ri'
-
+import { AiFillDashboard } from 'react-icons/ai'
+import { useLocation } from 'react-router'
+import { Capitalize } from '../../hooks/Catipalize'
+import Chart from './chart/Chart'
 
 function Dashboard() {
+
+
+    const location = useLocation()
+
     const dashboarddata = [
         {
-            titlr: "Active doctors",
-            nuber: 9,
+            title: "Active doctors",
+            number: 9,
             icon: <FiUsers />
         },
         {
-            titlr: "Active Patients",
-            nuber: 11,
+            title: "Active Patients",
+            number: 11,
             icon: <GrUserSettings />
         },
         {
-            titlr: "representative",
-            nuber: 3,
+            title: "representative",
+            number: 3,
             icon: <FiUsers />
         },
         {
-            titlr: "Active Nurses",
-            nuber: 5,
+            title: "Active Nurses",
+            number: 5,
             icon: <FiUsers />
         },
+        // {
+        //     title: "Pharmachist",
+        //     number: 3,
+        //     icon: <RiUserStarFill />
+        // },
         {
-            titlr: "Pharmachist",
-            nuber: 3,
+            title: "laboratorist",
+            number: 1,
             icon: <RiUserStarFill />
         },
+        // {
+        //     title: "Accountant",
+        //     number: 2,
+        //     icon: <RiUserStarFill />
+        // },
         {
-            titlr: "laboratorist",
-            nuber: 1,
-            icon: <RiUserStarFill />
-        },
-        {
-            titlr: "Accountant",
-            nuber: 2,
-            icon: <RiUserStarFill />
-        },
-        {
-            titlr: "Receptionist",
-            nuber: 4,
+            title: "Receptionist",
+            number: 4,
             icon: <RiUserStarFill />
         },
 
@@ -52,21 +59,34 @@ function Dashboard() {
     ]
     return (
         <div className='dashboard'>
+            <div className="dashboard__navbar">
+                <div className="dashboard__navbar_logo">
+                    <AiFillDashboard />
+                    <h3>{Capitalize(location.pathname.split("/admin/")[1])}</h3>
+                </div>
+
+                <div className="dashboard__navbar_path">
+                    <p>{location.pathname}</p>
+                </div>
+
+
+            </div>
             <div className="dashboard_items">
                 {
                     dashboarddata.map(user =>
-                        <div key={user.titlr} className="dashboard_item">
+                        <div key={user.title} className="dashboard_item">
                             <div className="dashoard_icon">
                                 {user.icon}
                             </div>
-                            <h2>{user.titlr}</h2>
-                            <b>{user.nuber}</b>
+                            <h2>{user.title}</h2>
+                            <b>{user.number}</b>
                         </div>
                     )
                 }
             </div>
+
+            <Chart />
         </div>
     )
 }
-
-export default Dashboard
+export default Dashboard;

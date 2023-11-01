@@ -8,6 +8,7 @@ import Dashboard from './admin/dashboard/Dashboard'
 import Doctor from './admin/doctor/Doctor'
 import Login from './pages/login/Login'
 import { AdminController } from './controller/AdminContoller'
+import Patient from './admin/patient/Patient'
 
 function Router() {
     return (
@@ -24,6 +25,7 @@ function Router() {
                     <Route path='/admin' element={<Admin />} >
                         <Route path='/admin/dashboard' element={<Dashboard />} />
                         <Route path='/admin/doctor' element={<Doctor />} />
+                        <Route path='/admin/patient' element={<Patient />} />
                     </Route>
                 </Route>
             </Routes>

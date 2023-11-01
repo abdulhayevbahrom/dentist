@@ -8,7 +8,7 @@ aside {
 
 aside .aside__Logo {
     color: rgb(173, 171, 171);
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     gap: 15px;
