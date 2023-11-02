@@ -85,7 +85,7 @@ function Dashboard() {
                 }
             </div>
 
-            <Chart />
+            {/* <Chart /> */}
         </div>
     )
 }

@@ -38,6 +38,7 @@ function Sidebar() {
                         </Link>
                     )
                 }
+                
             </div>
             <div className="aside__LogOut" onClick={LogOut} >Log out <FiLogOut /> </div>
             <div className="admin_header">
