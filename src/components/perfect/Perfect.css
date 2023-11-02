@@ -1,5 +1,6 @@
 .perfect {
     width: 100%;
+    position: relative;
 }
 
 .perfect_main {
@@ -13,7 +14,7 @@
     width: 50%;
     height: 476px;
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 40px;
 }
 
 .perfect .left h1 {
@@ -26,8 +27,8 @@
     content: '';
     width: 600px;
     height: 1px;
-    background-color: #999;
-    top: 60px;
+    background-color: #bbbbbb;
+    top: 80px;
     z-index: 1;
 }
 
@@ -46,14 +47,18 @@
     outline-color: #999;
     box-shadow: 0px 0px 5px #333;
     border-radius: 4px;
+    color: gray;
+    font-size: 16px;
 }
 
 .perfect .left .input2 {
-    padding: 18px 30px;
+    padding: 18px 25px;
     border: none;
     outline-color: #999;
     box-shadow: 0px 0px 5px #333;
     border-radius: 4px;
+    color: gray;
+    font-size: 16px;
 }
 
 .perfect .left .input3 {
@@ -62,6 +67,8 @@
     outline-color: #999;
     box-shadow: 0px 0px 5px #333;
     border-radius: 4px;
+    color: gray;
+    font-size: 16px;
 }
 
 .input_div button {
@@ -70,19 +77,24 @@
     border: none;
     border-radius: 4px;
     color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+.input_div button:hover{
+    background: linear-gradient(90deg, rgba(244,131,240,1) 0%, rgba(141,80,221,1) 35%, rgba(52,70,200,1) 100%);
 }
 
 .perfect .left img {
     width: 250px;
     position: absolute;
-    top: 250px;
-    left: 350px;
+    top: 150px;
+    left: 450px;
 }
 
 .perfect .right {
     width: 50%;
     height: 476px;
-    background-color: #0e54ae;
+    background-color: #0e53aed9;
     position: relative;
 }
 
@@ -92,13 +104,13 @@
     width: 180px;
     height: 2px;
     background-color: #BC74A5;
-    top: 50px;
-    left: 200px;
+    top: 70px;
+    left: 250px;
 }
 
 .perfect .right p {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 110px;
     font-size: 22px;
     line-height: 30px;
     color: white;
@@ -111,8 +123,8 @@
     width: 180px;
     height: 2px;
     background-color: #BC74A5;
-    top: 200px;
-    left: 200px;
+    top: 230px;
+    left: 250px;
 }
 
 .perfect .right img {

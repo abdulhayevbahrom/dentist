@@ -35,7 +35,7 @@ function Doctor_info() {
                                 Appropriately empower dynamic leadership skills after business portals. Globally myocardinate interactive supply chains with quality.
                             </span>
                             <div className="doctor_social_nets">
-                                <FaFacebook /><FaYoutube /><FaLinkedin />
+                                <FaFacebook className='facebook' /><FaYoutube className='youtube' /><FaLinkedin className='linkedin' />
                             </div>
                         </div>
                         <div className="doctor_cards">
@@ -47,7 +47,7 @@ function Doctor_info() {
                                 Appropriately empower dynamic leadership skills after business portals. Globally myocardinate interactive supply chains with quality.
                             </span>
                             <div className="doctor_social_nets">
-                                <FaFacebook /><FaYoutube /><FaLinkedin />
+                                <FaFacebook className='facebook' /><FaYoutube className='youtube' /><FaLinkedin className='linkedin' />
                             </div>
                         </div>
                         <div className="doctor_cards">
@@ -59,7 +59,7 @@ function Doctor_info() {
                                 Appropriately empower dynamic leadership skills after business portals. Globally myocardinate interactive supply chains with quality.
                             </span>
                             <div className="doctor_social_nets">
-                                <FaFacebook /><FaYoutube /><FaLinkedin />
+                                <FaFacebook className='facebook' /><FaYoutube className='youtube' /><FaLinkedin className='linkedin' />
                             </div>
                         </div>
                         <div className="doctor_cards">
@@ -71,7 +71,7 @@ function Doctor_info() {
                                 Appropriately empower dynamic leadership skills after business portals. Globally myocardinate interactive supply chains with quality.
                             </span>
                             <div className="doctor_social_nets">
-                                <FaFacebook /><FaYoutube /><FaLinkedin />
+                                <FaFacebook className='facebook' /><FaYoutube className='youtube' /><FaLinkedin className='linkedin' />
                             </div>
                         </div>
                     </div>

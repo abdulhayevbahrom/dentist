@@ -29,7 +29,7 @@ function Perfect() {
           </div>
           <div className="right">
             <p>My family trusts Dr Fischer completely, he’s<br></br> been with us for years and as helped us on<br></br> numerous occasions</p>
-            <img src={images} alt="" />
+
           </div>
         </div>
       </div>
