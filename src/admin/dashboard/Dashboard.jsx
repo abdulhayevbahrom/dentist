@@ -9,8 +9,6 @@ import { Capitalize } from '../../hooks/Catipalize'
 import Chart from './chart/Chart'
 
 function Dashboard() {
-
-
     const location = useLocation()
 
     const dashboarddata = [
