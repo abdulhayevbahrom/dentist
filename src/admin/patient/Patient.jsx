@@ -70,8 +70,9 @@ function Patient() {
             <option>30 yoshdan katta</option>
           </select>
           <input
+            placeholder="Search users..."
             type="text"
-            value={name}
+            // value={name}
             onChange={(e) => {
               SetName(e.target.value);
             }}
