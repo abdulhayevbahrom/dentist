@@ -1,5 +1,101 @@
 .doctor {
     width: calc(100% - 300px);
     height: 100vh;
-    background-color: blueviolet;
+    background-color: #747474;
+}
+
+.doctor_top {
+    width: 100%;
+    height: 80px;
+    background-color: #094da7;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding:0 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+.doctor_item {
+    width: 100%;
+    height: 89%;
+    background-color: #444444c9;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    overflow: scroll;
+    gap: 20px;
+    padding: 20px;
+}
+
+.doctor_item::-webkit-scrollbar {
+    width: 1px;
+}
+
+.doctor_items_ {
+    width: 270px;
+    height: 370px;
+    background-color: white;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.doctor_items_>div>svg:nth-child(1) {
+    color: dodgerblue;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.doctor_items_>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.doctor_items_>div>svg:nth-child(2) {
+    color: red;
+    font-size: 20px;
+
+}
+
+.doctor_items_>div>svg:nth-child(3) {
+    color: rgb(11, 102, 195);
+    font-size: 20px;
+
+}
+
+.doctor_items_>img {
+    width: 100%;
+    height: 60%;
+}
+
+.doctor_info {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1px);
+
+}
+
+.doctor_info_card {
+    width: 600px;
+    min-height: 300px;
+    background-color: #444;
+    padding: 20px;
+    line-height: 1.6;
+    color: white;
+    border-radius: 5px;
+
 }
