@@ -38,6 +38,7 @@ svg {
   display: flex;
   gap: 15px;
   align-items: center;
+  
 }
 
 .bar__icon {

@@ -2,13 +2,14 @@
 
 .Patient {
   width: 77%;
-  height: 100%;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   background-color: #fff;
   padding: 80px 0;
+  overflow: auto;
 }
 
 .Patient h1 {
@@ -39,8 +40,8 @@
     rgba(244, 246, 250, 0.469) 92%,
     dodgerblue 5%
   );
-  border:3px solid inherit;
-  overflow:hidden;
+  border: 3px solid inherit;
+  overflow: hidden;
   box-shadow: 1px 2px 3px rgb(182, 180, 180);
   margin-bottom: 20px;
 }

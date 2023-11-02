@@ -1,5 +1,67 @@
 .dashboard {
     width: calc(100% - 300px);
     height: 100vh;
-    background-color: crimson;
+    background-color: #565656;
+    /* padding: 20px; */
+}
+
+.dashboard__navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #1f6ed5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.dashboard__navbar .dashboard__navbar_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard__navbar .dashboard__navbar_logo svg {
+    font-size: 35px;
+}
+
+.dashboard_items {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    padding: 20px;
+}
+
+
+.dashboard_item {
+    position: relative;
+    background-color: #1f6ed5;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+
+.dashoard_icon {
+    font-size: 25px;
+    color: white;
+}
+
+.dashboard_item b {
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+    top: 30%;
+}
+
+
+.line_chart {
+    width: 500px;
+    height: 325px !important;
+    background-color: #eee;
+    color: red !important;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px 15px;
 }
