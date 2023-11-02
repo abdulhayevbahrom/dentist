@@ -11,7 +11,7 @@ import {
   LiaBarsSolid,
 } from "react-icons/lia";
 import { LuCalendarClock, LuInstagram } from "react-icons/lu";
-import { FaRegUser } from 'react-icons/fa'
+import { FaRegUser } from "react-icons/fa";
 
 function Navbar() {
   const [openSidebar, setOpenSidebar] = useState(false);
@@ -23,8 +23,8 @@ function Navbar() {
   }
   openSidebar
     ? (document.body.style.overflow = "hidden")
-    : (document.body.style.overflow = "auto")
-  
+    : (document.body.style.overflow = "auto");
+
   return (
     <div className="Navbar">
       <div className="container">
@@ -72,10 +72,10 @@ function Navbar() {
           {/*  NAVBAR LINKS */}
           <div className="nav__links">
             <Link to={"/about"}>Biz haqimizda</Link>
-            <Link to={"/"}>Xizmatlar</Link>
+            <Link to={"/xizmatlar"}>Xizmatlar</Link>
             <Link to={"/"}>bog'lanish</Link>
           </div>
-          <Link to={'/admin'} className="nav__user">
+          <Link to={"/admin"} className="nav__user">
             <FaRegUser />
             Kirish
           </Link>

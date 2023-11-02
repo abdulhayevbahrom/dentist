@@ -13,12 +13,6 @@ function Doctor() {
 
     return (
         <div className='doctor'>
-<<<<<<< HEAD
-            <h1>Doctor page</h1>
-           
-           
-        </div>
-=======
             <div className='doctor_top'>
                 Doctor Page
             </div>
@@ -52,7 +46,6 @@ function Doctor() {
             </div>
 
         </div >
->>>>>>> origin/fozilxon
     )
 }
 
