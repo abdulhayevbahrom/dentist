@@ -46,255 +46,257 @@ export const sidebarData = [
     }
 ]
 
-// export const clientsData = [
-//     {
-//         FirstName: "Alice",
-//         LastName: "Johnson",
-//         ID: 1,
-//         Age: 28,
-//         Gender: "Female",
-//         Address: "123, Main Street, Cityville",
-//         PhoneNumber: "5551234567"
-//     },
 
-//     {
-//         FirstName: "David",
-//         LastName: "Smith",
-//         ID: 2,
-//         Age: 35,
-//         Gender: "Male",
-//         Address: "456, Elm Avenue, Townsville",
-//         PhoneNumber: "5559876543"
-//     },
 
-//     {
-//         FirstName: "Emily",
-//         LastName: "Brown",
-//         ID: 3,
-//         Age: 22,
-//         Gender: "Female",
-//         Address: "789, Oak Road, Villagetown",
-//         PhoneNumber: "5552345678"
-//     },
+export const clientsData = [
+    {
+        firstname: "Alice",
+        lastname: "Johnson",
+        id: 1,
+        age: 28,
+        gender: "Female",
+        address: "123, Main Street, Cityville",
+        phoneNumber: "5551234567"
+    },
 
-//     {
-//         FirstName: "William",
-//         LastName: "Davis",
-//         ID: 4,
-//         Age: 42,
-//         Gender: "Male",
-//         Address: "567, Pine Lane, Hamletville",
-//         PhoneNumber: "5558765432"
-//     },
+    {
+        firstname: "David",
+        lastname: "Smith",
+        id: 2,
+        age: 35,
+        gender: "Male",
+        address: "456, Elm Avenue, Townsville",
+        phoneNumber: "5559876543"
+    },
 
-//     {
-//         FirstName: "Sophia",
-//         LastName: "Wilson",
-//         ID: 5,
-//         Age: 29,
-//         Gender: "Female",
-//         Address: "890, Cedar Street, Suburbia",
-//         PhoneNumber: "5553456789"
-//     },
+    {
+        firstname: "Emily",
+        lastname: "Brown",
+        id: 3,
+        age: 22,
+        gender: "Female",
+        address: "789, Oak Road, Villagetown",
+        phoneNumber: "5552345678"
+    },
 
-//     {
-//         FirstName: "Matthew",
-//         LastName: "Miller",
-//         ID: 6,
-//         Age: 31,
-//         Gender: "Male",
-//         Address: "234, Birch Road, Countryside",
-//         PhoneNumber: "5552345678"
-//     },
+    {
+        firstname: "William",
+        lastname: "Davis",
+        id: 4,
+        age: 42,
+        gender: "Male",
+        address: "567, Pine Lane, Hamletville",
+        phoneNumber: "5558765432"
+    },
 
-//     {
-//         FirstName: "Olivia",
-//         LastName: "Lee",
-//         ID: 7,
-//         Age: 25,
-//         Gender: "Female",
-//         Address: "678, Willow Drive, Uptown",
-//         PhoneNumber: "5557890123"
-//     },
+    {
+        firstname: "Sophia",
+        lastname: "Wilson",
+        id: 5,
+        age: 29,
+        gender: "Female",
+        address: "890, Cedar Street, Suburbia",
+        phoneNumber: "5553456789"
+    },
 
-//     {
-//         FirstName: "Daniel",
-//         LastName: "Turner",
-//         ID: 8,
-//         Age: 38,
-//         Gender: "Male",
-//         Address: "345, Cherry Court, Riverside",
-//         PhoneNumber: "5555678901"
-//     },
+    {
+        firstname: "Matthew",
+        lastname: "Miller",
+        id: 6,
+        age: 31,
+        gender: "Male",
+        address: "234, Birch Road, Countryside",
+        phoneNumber: "5552345678"
+    },
 
-//     {
-//         FirstName: "Ava",
-//         LastName: "Martin",
-//         ID: 9,
-//         Age: 27,
-//         Gender: "Female",
-//         Address: "456, Maple Circle, Lakeside",
-//         PhoneNumber: "5552345678"
-//     },
+    {
+        firstname: "Olivia",
+        lastname: "Lee",
+        id: 7,
+        age: 25,
+        gender: "Female",
+        address: "678, Willow Drive, Uptown",
+        phoneNumber: "5557890123"
+    },
 
-//     {
-//         FirstName: "James",
-//         LastName: "Harris",
-//         ID: 10,
-//         Age: 47,
-//         Gender: "Male",
-//         Address: "123, Apple Place, Beachtown",
-//         PhoneNumber: "5558901234"
-//     },
+    {
+        firstname: "Daniel",
+        lastname: "Turner",
+        id: 8,
+        age: 38,
+        gender: "Male",
+        address: "345, Cherry Court, Riverside",
+        phoneNumber: "5555678901"
+    },
 
-//     {
-//         FirstName: "Lily",
-//         LastName: "Clark",
-//         ID: 11,
-//         Age: 24,
-//         Gender: "Female",
-//         Address: "567, Rose Lane, Seaside",
-//         PhoneNumber: "5555678901"
-//     },
+    {
+        firstname: "Ava",
+        lastname: "Martin",
+        id: 9,
+        age: 27,
+        gender: "Female",
+        address: "456, Maple Circle, Lakeside",
+        phoneNumber: "5552345678"
+    },
 
-//     {
-//         FirstName: "Benjamin",
-//         LastName: "Baker",
-//         ID: 12,
-//         Age: 33,
-//         Gender: "Male",
-//         Address: "789, SunflowerRoad, Mountainside",
-//         PhoneNumber: "5553456789"
-//     },
+    {
+        firstname: "James",
+        lastname: "Harris",
+        id: 10,
+        age: 47,
+        gender: "Male",
+        address: "123, Apple Place, Beachtown",
+        phoneNumber: "5558901234"
+    },
 
-//     {
-//         FirstName: "Charlotte",
-//         LastName: "White",
-//         ID: 13,
-//         Age: 30,
-//         Gender: "Female",
-//         Address: "234, Tulip Street, Hilltop",
-//         PhoneNumber: "5551234567"
-//     },
+    {
+        firstname: "Lily",
+        lastname: "Clark",
+        id: 11,
+        age: 24,
+        gender: "Female",
+        address: "567, Rose Lane, Seaside",
+        phoneNumber: "5555678901"
+    },
 
-//     {
-//         FirstName: "Samuel",
-//         LastName: "Evans",
-//         ID: 14,
-//         Age: 40,
-//         Gender: "Male",
-//         Address: "456, Poppy Court, Valleyville",
-//         PhoneNumber: "5559876543"
-//     },
+    {
+        firstname: "Benjamin",
+        lastname: "Baker",
+        id: 12,
+        age: 33,
+        gender: "Male",
+        address: "789, SunflowerRoad, Mountainside",
+        phoneNumber: "5553456789"
+    },
 
-//     {
-//         FirstName: "Grace",
-//         LastName: "Bennett",
-//         ID: 15,
-//         Age: 26,
-//         Gender: "Female",
-//         Address: "789, Magnolia Drive, Meadowville",
-//         PhoneNumber: "5552345678"
-//     },
+    {
+        firstname: "Charlotte",
+        lastname: "White",
+        id: 13,
+        age: 30,
+        gender: "Female",
+        address: "234, Tulip Street, Hilltop",
+        phoneNumber: "5551234567"
+    },
 
-//     {
-//         FirstName: "Joseph",
-//         LastName: "Turner",
-//         ID: 16,
-//         Age: 37,
-//         Gender: "Male",
-//         Address: "567, Lilac Lane, Hillside",
-//         PhoneNumber: "5555678901"
-//     },
+    {
+        firstname: "Samuel",
+        lastname: "Evans",
+        id: 14,
+        age: 40,
+        gender: "Male",
+        address: "456, Poppy Court, Valleyville",
+        phoneNumber: "5559876543"
+    },
 
-//     {
-//         FirstName: "Mia",
-//         LastName: "Mitchell",
-//         ID: 17,
-//         Age: 23,
-//         Gender: "Female",
-//         Address: "890, Daisy Road, Woodlands",
-//         PhoneNumber: "5553456789"
-//     },
+    {
+        firstname: "Grace",
+        lastname: "Bennett",
+        id: 15,
+        age: 26,
+        gender: "Female",
+        address: "789, Magnolia Drive, Meadowville",
+        phoneNumber: "5552345678"
+    },
 
-//     {
-//         FirstName: "Christopher",
-//         LastName: "Brown",
-//         ID: 18,
-//         Age: 34,
-//         Gender: "Male",
-//         Address: "234, Sunflower Court, Parkville",
-//         PhoneNumber: "5552345678"
-//     },
+    {
+        firstname: "Joseph",
+        lastname: "Turner",
+        id: 16,
+        age: 37,
+        gender: "Male",
+        address: "567, Lilac Lane, Hillside",
+        phoneNumber: "5555678901"
+    },
 
-//     {
-//         FirstName: "Isabella",
-//         LastName: "Carter",
-//         ID: 19,
-//         Age: 28,
-//         Gender: "Female",
-//         Address: "678, Jasmine Street, Forestville",
-//         PhoneNumber: "5557890123"
-//     },
+    {
+        firstname: "Mia",
+        lastname: "Mitchell",
+        id: 17,
+        age: 23,
+        gender: "Female",
+        address: "890, Daisy Road, Woodlands",
+        phoneNumber: "5553456789"
+    },
 
-//     {
-//         FirstName: "Jacob",
-//         LastName: "Hall",
-//         ID: 20,
-//         Age: 32,
-//         Gender: "Male",
-//         Address: "123, Lavender Lane, Woodville",
-//         PhoneNumber: "5555678901"
-//     },
+    {
+        firstname: "Christopher",
+        lastname: "Brown",
+        id: 18,
+        age: 34,
+        gender: "Male",
+        address: "234, Sunflower Court, Parkville",
+        phoneNumber: "5552345678"
+    },
 
-//     {
-//         FirstName: "Amelia",
-//         LastName: "Nelson",
-//         ID: 21,
-//         Age: 31,
-//         Gender: "Female",
-//         Address: "456, Azalea Drive, Springville",
-//         PhoneNumber: "5552345678"
-//     },
+    {
+        firstname: "Isabella",
+        lastname: "Carter",
+        id: 19,
+        age: 28,
+        gender: "Female",
+        address: "678, Jasmine Street, Forestville",
+        phoneNumber: "5557890123"
+    },
 
-//     {
-//         FirstName: "William",
-//         LastName: "Scott",
-//         ID: 22,
-//         Age: 44,
-//         Gender: "Male",
-//         Address: "789, Magnolia Court, Greenfield",
-//         PhoneNumber: "5558901234"
-//     },
+    {
+        firstname: "Jacob",
+        lastname: "Hall",
+        id: 20,
+        age: 32,
+        gender: "Male",
+        address: "123, Lavender Lane, Woodville",
+        phoneNumber: "5555678901"
+    },
 
-//     {
-//         FirstName: "Harper",
-//         LastName: "Adams",
-//         ID: 23,
-//         Age: 25,
-//         Gender: "Female",
-//         Address: "567, Camellia Road, Meadowside",
-//         PhoneNumber: "5555678901"
-//     },
+    {
+        firstname: "Amelia",
+        lastname: "Nelson",
+        id: 21,
+        age: 31,
+        gender: "Female",
+        address: "456, Azalea Drive, Springville",
+        phoneNumber: "5552345678"
+    },
 
-//     {
-//         FirstName: "Samuel",
-//         LastName: "Reed",
-//         ID: 24,
-//         Age: 39,
-//         Gender: "Male",
-//         Address: "123, Dahlia Drive, Springdale",
-//         PhoneNumber: "5553456789"
-//     },
+    {
+        firstname: "William",
+        lastname: "Scott",
+        id: 22,
+        age: 44,
+        gender: "Male",
+        address: "789, Magnolia Court, Greenfield",
+        phoneNumber: "5558901234"
+    },
 
-//     {
-//         FirstName: "Chloe",
-//         LastName: "Williams",
-//         ID: 25,
-//         Age: 27,
-//         Gender: "Female",
-//         Address: "234, Marigold Street, Sunnyside",
-//         PhoneNumber: "5551234567"
-//     }
+    {
+        firstname: "Harper",
+        lastname: "Adams",
+        id: 23,
+        age: 25,
+        gender: "Female",
+        address: "567, Camellia Road, Meadowside",
+        phoneNumber: "5555678901"
+    },
 
-// ]
+    {
+        firstname: "Samuel",
+        lastname: "Reed",
+        id: 24,
+        age: 39,
+        gender: "Male",
+        address: "123, Dahlia Drive, Springdale",
+        phoneNumber: "5553456789"
+    },
+
+    {
+        firstname: "Chloe",
+        lastname: "Williams",
+        id: 25,
+        age: 27,
+        gender: "Female",
+        address: "234, Marigold Street, Sunnyside",
+        phoneNumber: "5551234567"
+    }
+
+]
