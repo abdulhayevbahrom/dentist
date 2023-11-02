@@ -1,6 +1,6 @@
 .dashboard {
     width: calc(100% - 300px);
-    /* height: 100vh; */
+    height: 100vh;
     background-color: #565656;
     /* padding: 20px; */
 }
@@ -57,7 +57,7 @@
 
 
 .line_chart {
-    width: 500px;
+    width: 681px !important;
     height: 325px !important;
     background-color: #eee;
     color: red !important;
@@ -65,8 +65,10 @@
     border-radius: 5px;
     padding: 5px 15px;
 }
-.dashboard__chart{
-    display: grid;
-    grid-template-columns: repeat(2,48%);
+
+.dashboard__chart {
+    width: 100%;
+    display: flex;
     gap: 20px;
+    padding-right: 20px;
 }

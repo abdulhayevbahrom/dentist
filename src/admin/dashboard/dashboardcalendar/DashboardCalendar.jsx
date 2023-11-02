@@ -6,14 +6,14 @@ import './DashboardCalendar.css'
 
 
 function DashboardCalendar() {
- const [date, setdate] = useState(new Date())
- const onChange = date => {
-  setdate(date) 
- }
+  const [date, setdate] = useState(new Date())
+  const onChange = date => {
+    setdate(date)
+  }
 
   return (
     <div className='dcalendar' >
-      <Calendar showWeekNumbers onChange={onChange} value={date} />
+      <Calendar className="calendar" showWeekNumbers onChange={onChange} value={date} />
     </div>
   );
 }
