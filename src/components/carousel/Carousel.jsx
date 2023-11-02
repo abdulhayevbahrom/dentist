@@ -6,6 +6,7 @@ import {MdMiscellaneousServices, MdArrowRight} from 'react-icons/md'
 function Carousel() {
   return (
     <div className='carousel'>
+      <div className="container">
       <h2>Committed To Excellence</h2>
       <h1>Personalized & Comfortable  </h1>
       <div className="teeth">
@@ -25,6 +26,7 @@ function Carousel() {
         </div>
       </div>
       <button>DentiCare Process <MdArrowRight/> </button>
+      </div>
     </div>
   )
 }

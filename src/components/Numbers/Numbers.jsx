@@ -21,28 +21,28 @@ function Numbers() {
                 <div className='number_item'>
                     <div>
                         <div>
-                            <div>
+                            <div className='radius'>
                                 <img src={ima1} alt="" />
                             </div>
                             <h1>99%</h1>
                             <p>Client Satisfaction</p>
                         </div>
                         <div>
-                            <div>
+                            <div className='radius'>
                                 <img src={ima2} alt="" />
                             </div>
                             <h1>99%</h1>
                             <p>Client Satisfaction</p>
                         </div>
                         <div>
-                            <div>
+                            <div className='radius'>
                                 <img src={ima3} alt="" />
                             </div>
                             <h1>99%</h1>
                             <p>Client Satisfaction</p>
                         </div>
                         <div>
-                            <div>
+                            <div className='radius'>
                                 <img src={ima4} alt="" />
                             </div>
                             <h1>99%</h1>
