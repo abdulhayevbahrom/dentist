@@ -4880,11 +4880,6 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
-"fsevents@^2.3.2", "fsevents@~2.3.2":
-  "integrity" "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
-  "version" "2.3.3"
-
 "function-bind@^1.1.1", "function-bind@^1.1.2":
   "integrity" "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
@@ -7939,7 +7934,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
 
-"react-router-dom@^6.17.0", "react-router-dom@>=6.0.0":
+"react-router-dom@^6.17.0":
   "integrity" "sha512-qWHkkbXQX+6li0COUUPKAUkxjNNqPJuiBd27dVwQGDNsuFBdMbrS6UZ0CLYc4CsbdLYTckn4oB4tGDuPZpPhaQ=="
   "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.17.0.tgz"
   "version" "6.17.0"
@@ -9329,11 +9324,6 @@
   dependencies:
     "querystringify" "^2.1.1"
     "requires-port" "^1.0.0"
-
-"use-react-router-breadcrumbs@^4.0.1":
-  "integrity" "sha512-Zbcy0KvWt1JePFcUHJAnTr7Z+AeO9WxmPs6A5Q/xqOVoi8edPKzpqHF87WB2opXwie/QjCxrEyTB7kFg7fgXvQ=="
-  "resolved" "https://registry.npmjs.org/use-react-router-breadcrumbs/-/use-react-router-breadcrumbs-4.0.1.tgz"
-  "version" "4.0.1"
 
 "util-deprecate@^1.0.1", "util-deprecate@^1.0.2", "util-deprecate@~1.0.1":
   "integrity" "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
