@@ -10,6 +10,7 @@ import Login from "./pages/login/Login";
 import { AdminController } from "./controller/AdminContoller";
 import Patient from "./admin/patient/Patient";
 import Services from "./pages/services/Services";
+import ServicesScheduleAnAppointment from "./components/sevicesPages/servicesScheduleAnAppointment/ServicesScheduleAnAppointment";
 
 function Router() {
   return (
@@ -21,6 +22,10 @@ function Router() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/xizmatlar" element={<Services />} />
+          <Route
+            path="/schedule-an-appointment"
+            element={<ServicesScheduleAnAppointment />}
+          />
         </Route>
 
         <Route path="/admin" element={<AdminController />}>

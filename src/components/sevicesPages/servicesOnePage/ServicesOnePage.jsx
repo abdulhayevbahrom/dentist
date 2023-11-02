@@ -16,7 +16,7 @@ function ServicesOnePage() {
             <img src={iconImg} alt="" />
           </div>
           <h2>HOW CAN WE HELP YOU TODAY?</h2>
-          <Link>SCHEDULE AN APPOINTMENT</Link>
+          <Link to={"/schedule-an-appointment"}>SCHEDULE AN APPOINTMENT</Link>
           <div className="services_links_icon_img_border">
             <Link className="services_link_img_icons">
               <img src={instagram} alt="" />
