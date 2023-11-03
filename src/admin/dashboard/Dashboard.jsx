@@ -1,12 +1,13 @@
-import React from 'react'
-import './Dashboard.css'
-import { FiUsers } from 'react-icons/fi'
-import { GrUserSettings } from 'react-icons/gr'
-import { RiUserStarFill } from 'react-icons/ri'
-import { AiFillDashboard } from 'react-icons/ai'
-import { useLocation } from 'react-router'
-import { Capitalize } from '../../hooks/Catipalize'
-import Chart from './chart/Chart'
+import React from "react";
+import "./Dashboard.css";
+import { FiUsers } from "react-icons/fi";
+import { GrUserSettings } from "react-icons/gr";
+import { RiUserStarFill } from "react-icons/ri";
+import { AiFillDashboard } from "react-icons/ai";
+import { useLocation } from "react-router";
+import { Capitalize } from "../../hooks/Catipalize";
+import Chart from "./chart/Chart";
+import DashboardCalendar from "./dashboardcalendar/DashboardCalendar";
 
 function Dashboard() {
     const location = useLocation()
@@ -32,21 +33,11 @@ function Dashboard() {
             number: 5,
             icon: <FiUsers />
         },
-        // {
-        //     title: "Pharmachist",
-        //     number: 3,
-        //     icon: <RiUserStarFill />
-        // },
         {
             title: "laboratorist",
             number: 1,
             icon: <RiUserStarFill />
         },
-        // {
-        //     title: "Accountant",
-        //     number: 2,
-        //     icon: <RiUserStarFill />
-        // },
         {
             title: "Receptionist",
             number: 4,
@@ -83,8 +74,11 @@ function Dashboard() {
                 }
             </div>
 
-            <Chart />
+            <div className="dashboard__chart">
+                <Chart />
+                <DashboardCalendar />
+            </div>
         </div>
-    )
+    );
 }
 export default Dashboard;

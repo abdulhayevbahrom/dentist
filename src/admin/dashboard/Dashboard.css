@@ -57,11 +57,18 @@
 
 
 .line_chart {
-    width: 500px;
+    width: 681px !important;
     height: 325px !important;
     background-color: #eee;
     color: red !important;
     margin-left: 20px;
     border-radius: 5px;
     padding: 5px 15px;
+}
+
+.dashboard__chart {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
 }
