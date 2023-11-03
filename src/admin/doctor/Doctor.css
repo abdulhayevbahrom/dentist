@@ -1,4 +1,4 @@
-.doctor_add_header{
+.doctor_add_header {
     width: 100%;
     height: 80px;
     background-color: #276cc7af;
@@ -12,66 +12,13 @@
 .doctor {
     width: calc(100% - 300px);
     height: 100vh;
-<<<<<<< HEAD
-    background-color: #747474;
-}
-
-.doctor_top {
-    width: 100%;
-    height: 80px;
-    background-color: #094da7;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
-    padding:0 20px;
-    color: white;
-    justify-content: space-between;
-}
-
-.doctor_item {
-    width: 100%;
-    height: 89%;
-    background-color: #444444c9;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    overflow: scroll;
-    gap: 20px;
-    padding: 20px;
-}
-
-.doctor_item::-webkit-scrollbar {
-    width: 1px;
-}
-
-.doctor_items_ {
-    width: 270px;
-    height: 370px;
-    background-color: white;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-.doctor_items_>div>svg:nth-child(1) {
-    color: dodgerblue;
-    border-radius: 3px;
-    font-size: 20px;
-}
-
-.doctor_items_>div {
-=======
     background-image: url(https://img.freepik.com/free-photo/close-up-portrait-beautiful-young-lady-sitting-dental-chair-while-stomatologist-hands-sterile-gloves-holding-tooth-samples_158595-7636.jpg?w=1060&t=st=1698920063~exp=1698920663~hmac=1a84efa2eeb3a7988e42e147d495c39c482edabe4f165de618fb0afd6cbf6022);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.doctoradd>form{
+
+.doctoradd>form {
     width: 400px;
     height: 400px;
     background-color: #ffffffed;
@@ -81,20 +28,18 @@
     flex-direction: column;
     gap: 20px;
     padding: 0 20px;
-    margin: 100px 0  0 100px;
+    margin: 100px 0 0 100px;
     border-radius: 15px;
 }
 
-.doctoradd>form>label{
+.doctoradd>form>label {
     width: 100%;
     height: 30px;
     background-color: #eee;
->>>>>>> origin/abdulloh
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-<<<<<<< HEAD
 }
 
 .doctor_items_>div>svg:nth-child(2) {
@@ -137,19 +82,15 @@
     border-radius: 5px;
 
 }
-=======
-    border-radius: 3px;
-    padding: 5px;
-}
 
-.doctoradd>form>label>input{
+.doctoradd>form>label>input {
     background-color: transparent;
     width: 80%;
     height: 100%;
     font-size: 17px;
 }
 
-.doctoradd>form>button{
+.doctoradd>form>button {
     background-color: dodgerblue;
     width: 100%;
     height: 30px;
@@ -157,4 +98,3 @@
     padding: 3px;
 
 }
->>>>>>> origin/abdulloh

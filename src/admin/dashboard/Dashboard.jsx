@@ -74,15 +74,10 @@ function Dashboard() {
                 }
             </div>
 
-<<<<<<< HEAD
             <div className="dashboard__chart">
                 <Chart />
                 <DashboardCalendar />
             </div>
-
-=======
-            {/* <Chart /> */}
->>>>>>> origin/abdulloh
         </div>
     );
 }
