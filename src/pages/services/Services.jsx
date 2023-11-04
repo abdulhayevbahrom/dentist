@@ -10,7 +10,7 @@ function Services() {
     <div className="container">
       <ServicesOnePage />
       <ServicesTwoPage />
-      {/* <ServicesThreePage /> */}
+      <ServicesThreePage />
       {/* <ServicesFourPage /> */}
       {/* <ServicesFivePages /> */}
     </div>
