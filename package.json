@@ -7,12 +7,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "chart.js": "^4.4.0",
-<<<<<<< HEAD
-    "faker": "^5.5.3",
     "google-maps": "^4.3.3",
-=======
     "faker": "^5.0.0",
->>>>>>> 1ab2393bef00f97587b62d5c405273c4f24ee988
     "react": "^18.2.0",
     "react-calendar": "^4.6.1",
     "react-chartjs-2": "^5.2.0",

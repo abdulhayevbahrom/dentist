@@ -10,75 +10,67 @@ import Chart from "./chart/Chart";
 import DashboardCalendar from "./dashboardcalendar/DashboardCalendar";
 
 function Dashboard() {
-    const location = useLocation()
+  const location = useLocation();
 
-    const dashboarddata = [
-        {
-            title: "Active doctors",
-            number: 9,
-            icon: <FiUsers />
-        },
-        {
-            title: "Active Patients",
-            number: 11,
-            icon: <GrUserSettings />
-        },
-        {
-            title: "representative",
-            number: 3,
-            icon: <FiUsers />
-        },
-        {
-            title: "Active Nurses",
-            number: 5,
-            icon: <FiUsers />
-        },
-        {
-            title: "laboratorist",
-            number: 1,
-            icon: <RiUserStarFill />
-        },
-        {
-            title: "Receptionist",
-            number: 4,
-            icon: <RiUserStarFill />
-        },
-
-
-    ]
-    return (
-        <div className='dashboard'>
-            <div className="dashboard__navbar">
-                <div className="dashboard__navbar_logo">
-                    <AiFillDashboard />
-                    <h3>{Capitalize(location.pathname.split("/admin/")[1])}</h3>
-                </div>
-
-                <div className="dashboard__navbar_path">
-                    <p>{location.pathname}</p>
-                </div>
-
-
-            </div>
-            <div className="dashboard_items">
-                {
-                    dashboarddata.map(user =>
-                        <div key={user.title} className="dashboard_item">
-                            <div className="dashoard_icon">
-                                {user.icon}
-                            </div>
-                            <h2>{user.title}</h2>
-                            <b>{user.number}</b>
-                        </div>
-                    )
-                }
-            </div>
-
-            <div className="dashboard__chart">
-                <Chart />
-                <DashboardCalendar />
-            </div>
+  const dashboarddata = [
+    {
+      title: "Active doctors",
+      number: 9,
+      icon: <FiUsers />,
+    },
+    {
+      title: "Active Patients",
+      number: 11,
+      icon: <GrUserSettings />,
+    },
+    {
+      title: "representative",
+      number: 3,
+      icon: <FiUsers />,
+    },
+    {
+      title: "Active Nurses",
+      number: 5,
+      icon: <FiUsers />,
+    },
+    {
+      title: "laboratorist",
+      number: 1,
+      icon: <RiUserStarFill />,
+    },
+    {
+      title: "Receptionist",
+      number: 4,
+      icon: <RiUserStarFill />,
+    },
+  ];
+  return (
+    <div className="dashboard">
+      <div className="dashboard__navbar">
+        <div className="dashboard__navbar_logo">
+          <AiFillDashboard />
+          <h3>{Capitalize(location.pathname.split("/admin/")[1])}</h3>
         </div>
-    );
+
+        <div className="dashboard__navbar_path">
+          <p>{location.pathname}</p>
+        </div>
+      </div>
+      <div className="dashboard_items">
+        {dashboarddata.map((user) => (
+          <div key={user.title} className="dashboard_item">
+            <div className="dashoard_icon">{user.icon}</div>
+            <h2>{user.title}</h2>
+            <b>{user.number}</b>
+          </div>
+        ))}
+      </div>
+
+      <div className="dashboard__chart">
+        <Chart />
+        <DashboardCalendar />
+      </div>
+    </div>
+  );
 }
 export default Dashboard;

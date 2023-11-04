@@ -1,0 +1,258 @@
+.services_page {
+  width: 100%;
+  padding: 50px 3%;
+  background: #f4f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.services_page_title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.services_page_title h2 {
+  font-size: 30px;
+  color: #424243;
+}
+
+.services_page_title span {
+  font-size: 16px;
+  font-weight: 100;
+  color: #656565;
+}
+
+.services_page_doctors_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.services_page_doctor_data_card {
+  width: 280px;
+  background: #fff;
+  box-shadow: 0 0 3px #7f7f7f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.serces_page_doctor_img {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.serces_page_doctor_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  backdrop-filter: blur(7px);
+}
+
+.services_doctor_data_card {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.services_doctor_data_card h2 {
+  font-size: 25px;
+  color: #0e55ae;
+}
+
+.services_doctor_data_card p {
+  color: #7f7f7f;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.services_doctor_data_card p span {
+  font-size: 15px;
+  color: #3e3d3d;
+}
+
+.services_doctor_data_card button {
+  padding: 8px 13px;
+  background: #0e55ae;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.services_doctor_data_card button:hover {
+  background-color: #105fc0;
+}
+
+.servicer_doctor_data_icons_card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.servicer_doctor_data_icons_card a {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8f5f6;
+}
+
+.servicer_doctor_data_icons_card a img {
+  width: 25px;
+  height: 25px;
+}
+
+/* ======================== */
+
+.services_doctor_data_page {
+  width: 100%;
+  height: 100vh;
+  background: #f4f9f9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.services_doctor_container {
+  width: 100%;
+  height: 100%;
+  padding: 20px 3%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.services_doctor_container .services_doctor_img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services_doctor_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  backdrop-filter: blur(7px);
+}
+
+.services_doctor_container .services_doctor_data {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.service_doctor_data_close {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.service_doctor_data_close .close_border {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #c0fbf9;
+  cursor: pointer;
+}
+
+.service_doctor_data_close .close_border svg {
+  color: red;
+}
+
+.services_doctor_data h2 {
+  font-size: 27px;
+  color: #0e55ae;
+}
+
+.services_doctor_data .services_doctor_item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.services_doctor_item p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #757474;
+  font-size: 16px;
+}
+
+.services_doctor_item p span {
+  color: #4e4e4e;
+  font-size: 14px;
+}
+
+.services_doctor_item .doctor_full_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.services_doctor_item .link {
+  width: 190px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0e55ae;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.services_doctor_item .link:hover {
+  background: #1064ca;
+}
+
+.services_doctor_item .doctor_link_icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.doctor_link_icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c0fbf9;
+}
+
+.doctor_link_icons a img {
+  width: 25px;
+  height: 25px;
+}
