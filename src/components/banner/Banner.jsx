@@ -1,6 +1,7 @@
 import React from 'react'
 import './Bannner.css'
 import { AiOutlineRight } from 'react-icons/ai'
+import {motion} from 'framer-motion'
 function Banner() {
     return (
         <div className='banner'>

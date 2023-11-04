@@ -2,6 +2,8 @@ import React from 'react'
 import './Perfect.css'
 import image from '../../images/img-booking.png'
 import images from '../../images/signature.png'
+import {motion} from 'framer-motion'
+import { fadeIn } from '../../variants'
 
 function Perfect() {
   return (
@@ -10,7 +12,12 @@ function Perfect() {
         <div className="perfect_main">
 
 
-          <div className="left">
+          <motion.div
+           variants={fadeIn('right', 0.3 )}
+           initial='hidden'
+            whileInView={'show'}
+             viewport={{once: false,amount:0.7}} 
+          className="left">
             <h1>A Perfect Smile Guaranteed</h1>
             <div className="input_div">
               <input type="text" placeholder='Your email address' className='input1' />
@@ -26,11 +33,16 @@ function Perfect() {
               <button>Book Your Dentist</button>
               <img src={image} alt="" />
             </div>
-          </div>
-          <div className="right">
+          </motion.div>
+          <motion.div
+           variants={fadeIn('left', 0.3 )}
+           initial='hidden'
+            whileInView={'show'}
+             viewport={{once: false,amount:0.7}} 
+          className="right">
             <p>My family trusts Dr Fischer completely, he’s<br></br> been with us for years and as helped us on<br></br> numerous occasions</p>
-            <img src={images} alt="" />
-          </div>
+
+          </motion.div>
         </div>
       </div>
     </div>

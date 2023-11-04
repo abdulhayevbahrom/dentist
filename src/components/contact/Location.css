@@ -43,15 +43,18 @@
 .location_main {
     width: 100%;
     height: 75%;
-    background-color: pink;
     display: flex;
+    gap: 20px;
 }
 
 .location_main_left {
     width: 55%;
     height: 100%;
-    background-color: red;
-    background-image: url(https://developers.google.com/static/maps/images/landing/hero_maps_static_api.png);
+    
+}
+.iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .location_main_right {

@@ -13,7 +13,7 @@ function DashboardCalendar() {
 
   return (
     <div className='dcalendar' >
-      <Calendar showWeekNumbers onChange={onChange} value={date} />
+      <Calendar className="calendar-react" showWeekNumbers onChange={onChange} value={date} />
     </div>
   );
 }

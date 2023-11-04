@@ -67,6 +67,6 @@
 }
 .dashboard__chart{
     display: grid;
-    grid-template-columns: repeat(2,48%);
+    grid-template-columns: repeat(2,auto);
     gap: 20px;
 }

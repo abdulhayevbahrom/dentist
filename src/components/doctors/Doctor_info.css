@@ -194,7 +194,7 @@
 }
 
 .doctor_info_cards .doctor_cards .job {
-    color: blue;
+    color: rgb(70, 70, 239);
     font-size: 25px;
     font-weight: normal;
 }
@@ -203,7 +203,7 @@
     width: 50px;
     height: 3px;
     margin: 10px 0;
-    background-color: blueviolet;
+    background-color: rgb(70, 70, 239);
 }
 
 .doctor_info_cards .doctor_cards .doctor_experience {
@@ -213,7 +213,7 @@
 
 .doctor_info_cards .doctor_cards .single_doctor_info_experience {
     font-size: 17px;
-    margin-top: 50px;
+    margin-top: 60px;
     display: inline;
     color: gray;
 }
@@ -221,10 +221,18 @@
 .doctor_info_cards .doctor_cards .doctor_social_nets svg {
     width: 35px;
     height: 35px;
-    border: 1px solid dodgerblue;
+    border: 1px solid lightblue;
     padding: 5px;
     margin: 10px 10px;
     border-radius: 50%;
+}
+.doctor_info_cards .doctor_cards .doctor_social_nets .linkedin{
+    color: #0077b5;
+}
+.doctor_info_cards .doctor_cards .doctor_social_nets .facebook{
+    color: dodgerblue;
+}
+.doctor_info_cards .doctor_cards .doctor_social_nets .youtube{
     color: red;
 }
 

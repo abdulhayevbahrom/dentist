@@ -4,11 +4,18 @@ import { HiOutlinePhoneXMark} from 'react-icons/hi2'
 import {PiMapPinLine} from 'react-icons/pi'
 import {BsBook} from 'react-icons/bs'
 import {HiOutlineMail } from 'react-icons/hi'
+import {motion} from 'framer-motion'
+import { fadeIn } from '../../variants'
 
 
 function LocationCard() {
     return (
-        <div className='LocationCard'>
+        <motion.div
+        variants={fadeIn('up', 0.2 )}
+        initial='hidden'
+         whileInView={'show'}
+          viewport={{once: false,amount:0.7}} 
+         className='LocationCard'>
             <div className="LocationCard_items">
                 <HiOutlinePhoneXMark />
                 <h2>Emergency Phone</h2>
@@ -34,7 +41,7 @@ function LocationCard() {
                 <p>office@denticare.com
                     emergencies@denticare.com</p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

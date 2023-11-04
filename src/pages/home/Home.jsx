@@ -9,7 +9,7 @@ import Carousel from '../../components/carousel/Carousel'
 function Home() {
     return (
         <div className='home'>
-            <Carousel/>
+            <Carousel />
             <Perfect />
             <Services />
             <DoctorInfo />
